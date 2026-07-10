@@ -1,8 +1,8 @@
 {
-  "name": "trae-neo-color-themes",
-  "displayName": "Trae Neo Themes",
+  "name": "trae-neo-themes",
+  "displayName": "Trae Neo Color Icon Themes",
   "description": "Dark and light VS Code color themes plus the Trae Neo product icon theme extracted from the local Trae installation.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "2O48",
   "icon": "images.jpg",
   "engines": {
