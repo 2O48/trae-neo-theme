@@ -1,0 +1,32 @@
+{
+  "name": "trae-neo-color-themes",
+  "displayName": "Trae Neo Themes",
+  "description": "Dark and light VS Code color themes extracted from the local Trae installation.",
+  "version": "0.0.3",
+  "publisher": "2O48",
+  "icon": "images.jpg",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Trae Neo Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/trae-neo-dark-color-theme.json"
+      },
+      {
+        "label": "Trae Neo Light",
+        "uiTheme": "vs",
+        "path": "./themes/trae-neo-light-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2O48/trae-neo-theme.git"
+  }
+}

@@ -1,0 +1,4373 @@
+{
+  "fonts": [
+    {
+      "id": "trae-default-codicon",
+      "src": [
+        {
+          "format": "truetype",
+          "path": "../fonts/trae-codicon.ttf"
+        }
+      ],
+      "style": "normal",
+      "weight": "normal"
+    }
+  ],
+  "iconDefinitions": {
+    "overrides-book": {
+      "fontCharacter": "\\2710",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-check": {
+      "fontCharacter": "\\2711",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-clear-all": {
+      "fontCharacter": "\\2712",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-edit": {
+      "fontCharacter": "\\2713",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-error": {
+      "fontCharacter": "\\2714",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-extensions": {
+      "fontCharacter": "\\2715",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-eye-closed": {
+      "fontCharacter": "\\2716",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-eye": {
+      "fontCharacter": "\\2717",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-filter": {
+      "fontCharacter": "\\2718",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-info": {
+      "fontCharacter": "\\2719",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-lightbulb-sparkle": {
+      "fontCharacter": "\\271a",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-mention": {
+      "fontCharacter": "\\271b",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-mic-filled": {
+      "fontCharacter": "\\271c",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-mic": {
+      "fontCharacter": "\\271d",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-preserve-case": {
+      "fontCharacter": "\\271e",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-record-keys": {
+      "fontCharacter": "\\271f",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-refresh": {
+      "fontCharacter": "\\2720",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-repo-force-push": {
+      "fontCharacter": "\\2721",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-repo-pull": {
+      "fontCharacter": "\\2722",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-repo-push": {
+      "fontCharacter": "\\2723",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-save": {
+      "fontCharacter": "\\2724",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-search-fuzzy": {
+      "fontCharacter": "\\2725",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-settings": {
+      "fontCharacter": "\\2726",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-sort-precedence": {
+      "fontCharacter": "\\2727",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-source-control": {
+      "fontCharacter": "\\2728",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-symbol-method": {
+      "fontCharacter": "\\2729",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-symbol-namespace": {
+      "fontCharacter": "\\272a",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-sync": {
+      "fontCharacter": "\\272b",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-terminal": {
+      "fontCharacter": "\\272c",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-unlock": {
+      "fontCharacter": "\\272d",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-warning": {
+      "fontCharacter": "\\272e",
+      "fontId": "trae-default-codicon"
+    },
+    "overrides-whole-word": {
+      "fontCharacter": "\\272f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AIBulb": {
+      "fontCharacter": "\\4e20",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AIExplain": {
+      "fontCharacter": "\\4e21",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AIStar": {
+      "fontCharacter": "\\4e22",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AISum": {
+      "fontCharacter": "\\4e23",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AIWrite": {
+      "fontCharacter": "\\4e24",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AddCircleFilled": {
+      "fontCharacter": "\\4e25",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AddFile": {
+      "fontCharacter": "\\4e26",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AddFolder": {
+      "fontCharacter": "\\4e27",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AddMember": {
+      "fontCharacter": "\\4e28",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AddToTerminal": {
+      "fontCharacter": "\\4e29",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AgentEarth": {
+      "fontCharacter": "\\4e2a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AgentFileSystem": {
+      "fontCharacter": "\\4e2b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AgentFolder": {
+      "fontCharacter": "\\4e2c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AgentPreview": {
+      "fontCharacter": "\\4e2d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Ai": {
+      "fontCharacter": "\\4e2e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiAssistantText": {
+      "fontCharacter": "\\4e2f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiAttachment": {
+      "fontCharacter": "\\4e30",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiColor": {
+      "fontCharacter": "\\4e31",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiColorful": {
+      "fontCharacter": "\\4e32",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiLightbulbSparking": {
+      "fontCharacter": "\\4e33",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiSimple": {
+      "fontCharacter": "\\4e34",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiSimple2": {
+      "fontCharacter": "\\4e35",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiSlashDoc": {
+      "fontCharacter": "\\4e36",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiSlashExplain": {
+      "fontCharacter": "\\4e37",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiSlashTest": {
+      "fontCharacter": "\\4e38",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AiStars": {
+      "fontCharacter": "\\4e39",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AlignJustify": {
+      "fontCharacter": "\\4e3a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AlignLeft": {
+      "fontCharacter": "\\4e3b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AlignMiddle": {
+      "fontCharacter": "\\4e3c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AlignRight": {
+      "fontCharacter": "\\4e3d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AltN": {
+      "fontCharacter": "\\4e3e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-AltY": {
+      "fontCharacter": "\\4e3f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowDown": {
+      "fontCharacter": "\\4e40",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowLeft": {
+      "fontCharacter": "\\4e41",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowMinimize": {
+      "fontCharacter": "\\4e42",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowRight": {
+      "fontCharacter": "\\4e43",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowStepBack": {
+      "fontCharacter": "\\4e44",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowUp": {
+      "fontCharacter": "\\4e45",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowUpDown": {
+      "fontCharacter": "\\4e46",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowUpRight": {
+      "fontCharacter": "\\4e47",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowWallLeft": {
+      "fontCharacter": "\\4e48",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ArrowWallRight": {
+      "fontCharacter": "\\4e49",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BackSpace": {
+      "fontCharacter": "\\4e4a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Ban": {
+      "fontCharacter": "\\4e4b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BetaLab": {
+      "fontCharacter": "\\4e4c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BrainAI": {
+      "fontCharacter": "\\4e4d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Branch": {
+      "fontCharacter": "\\4e4e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BranchSimple": {
+      "fontCharacter": "\\4e4f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Browser": {
+      "fontCharacter": "\\4e50",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BrowserUse": {
+      "fontCharacter": "\\4e51",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-BubleTooltipFill": {
+      "fontCharacter": "\\4e52",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Bulb": {
+      "fontCharacter": "\\4e53",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Celebration": {
+      "fontCharacter": "\\4e54",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ChatCode": {
+      "fontCharacter": "\\4e55",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ChatSessionIcon": {
+      "fontCharacter": "\\4e56",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Check": {
+      "fontCharacter": "\\4e57",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Claude": {
+      "fontCharacter": "\\4e58",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Clean": {
+      "fontCharacter": "\\4e59",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Close": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CloseAll": {
+      "fontCharacter": "\\4e5b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CloseCircleFill": {
+      "fontCharacter": "\\4e5c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CloseCircleSeriousFill": {
+      "fontCharacter": "\\4e5d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CloseSimple": {
+      "fontCharacter": "\\4e5e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Cloud": {
+      "fontCharacter": "\\4e5f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CodeAiLine": {
+      "fontCharacter": "\\4e60",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CodeBlock": {
+      "fontCharacter": "\\4e61",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CollapseAll": {
+      "fontCharacter": "\\4e62",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ColorFrame": {
+      "fontCharacter": "\\4e63",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Command": {
+      "fontCharacter": "\\4e64",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandArrowUpDown": {
+      "fontCharacter": "\\4e65",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandBackSpace": {
+      "fontCharacter": "\\4e66",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandEnter": {
+      "fontCharacter": "\\4e67",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandK": {
+      "fontCharacter": "\\4e68",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandL": {
+      "fontCharacter": "\\4e69",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandN": {
+      "fontCharacter": "\\4e6a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandSmall": {
+      "fontCharacter": "\\4e6b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CommandY": {
+      "fontCharacter": "\\4e6c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Compact": {
+      "fontCharacter": "\\4e6d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Compass": {
+      "fontCharacter": "\\4e6e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ComputerScreen": {
+      "fontCharacter": "\\4e6f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Context": {
+      "fontCharacter": "\\4e70",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ContextLines": {
+      "fontCharacter": "\\4e71",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Contract": {
+      "fontCharacter": "\\4e72",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Copy": {
+      "fontCharacter": "\\4e73",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CopyLink": {
+      "fontCharacter": "\\4e74",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CornerBottomLeft": {
+      "fontCharacter": "\\4e75",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CornerBottomRight": {
+      "fontCharacter": "\\4e76",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CornerTopLeft": {
+      "fontCharacter": "\\4e77",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CornerTopRight": {
+      "fontCharacter": "\\4e78",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CreateFile": {
+      "fontCharacter": "\\4e79",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CreateFolder": {
+      "fontCharacter": "\\4e7a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CreateFunction": {
+      "fontCharacter": "\\4e7b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CtrlN": {
+      "fontCharacter": "\\4e7c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CtrlY": {
+      "fontCharacter": "\\4e7d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CueIcon": {
+      "fontCharacter": "\\4e7e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CustomAgent": {
+      "fontCharacter": "\\4e7f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-CustomAgentCreate": {
+      "fontCharacter": "\\4e80",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Debug": {
+      "fontCharacter": "\\4e81",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DebugFill": {
+      "fontCharacter": "\\4e82",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Delete": {
+      "fontCharacter": "\\4e83",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Delete2": {
+      "fontCharacter": "\\4e84",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Deploy": {
+      "fontCharacter": "\\4e85",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DescendingSorting": {
+      "fontCharacter": "\\4e86",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Diff": {
+      "fontCharacter": "\\4e87",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DiffDeleteFile": {
+      "fontCharacter": "\\4e88",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DiffNewFile": {
+      "fontCharacter": "\\4e89",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DiffUpdateFile": {
+      "fontCharacter": "\\4e8a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DiffViewCodeUnFold": {
+      "fontCharacter": "\\4e8b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Disconnect": {
+      "fontCharacter": "\\4e8c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Dock": {
+      "fontCharacter": "\\4e8d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Docset": {
+      "fontCharacter": "\\4e8e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DocsetEnterprise": {
+      "fontCharacter": "\\4e8f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DocsetItem": {
+      "fontCharacter": "\\4e90",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DocumentFeedback": {
+      "fontCharacter": "\\4e91",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DoubleLeft": {
+      "fontCharacter": "\\4e92",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DoubleRight": {
+      "fontCharacter": "\\4e93",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Down": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Download": {
+      "fontCharacter": "\\4e95",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-DragDot": {
+      "fontCharacter": "\\4e96",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ESC": {
+      "fontCharacter": "\\4e97",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Edit": {
+      "fontCharacter": "\\4e98",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-EditPen": {
+      "fontCharacter": "\\4e99",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Enter": {
+      "fontCharacter": "\\4e9a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Error": {
+      "fontCharacter": "\\4e9b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ErrorCircle": {
+      "fontCharacter": "\\4e9c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ErrorSimple": {
+      "fontCharacter": "\\4e9d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ExpandAll": {
+      "fontCharacter": "\\4e9e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Filter": {
+      "fontCharacter": "\\4e9f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-FilterLine": {
+      "fontCharacter": "\\4ea0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-FlipHorizontal": {
+      "fontCharacter": "\\4ea1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-FlipVertical": {
+      "fontCharacter": "\\4ea2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Folder": {
+      "fontCharacter": "\\4ea3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-FollowAI": {
+      "fontCharacter": "\\4ea4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-FollowupArrawRight": {
+      "fontCharacter": "\\4ea5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Font": {
+      "fontCharacter": "\\4ea6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Forbid": {
+      "fontCharacter": "\\4ea7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Frame": {
+      "fontCharacter": "\\4ea8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Gemini": {
+      "fontCharacter": "\\4ea9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-GeneralToggle": {
+      "fontCharacter": "\\4eaa",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Gift": {
+      "fontCharacter": "\\4eab",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Git": {
+      "fontCharacter": "\\4eac",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-GitBranchWorktree": {
+      "fontCharacter": "\\4ead",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-GlassesRead": {
+      "fontCharacter": "\\4eae",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-GroupChat": {
+      "fontCharacter": "\\4eaf",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Help": {
+      "fontCharacter": "\\4eb0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-History": {
+      "fontCharacter": "\\4eb1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Home": {
+      "fontCharacter": "\\4eb2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Hooks": {
+      "fontCharacter": "\\4eb3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ICubeIconNew": {
+      "fontCharacter": "\\4eb4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Info": {
+      "fontCharacter": "\\4eb5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Info2": {
+      "fontCharacter": "\\4eb6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-InfoCircleFill": {
+      "fontCharacter": "\\4eb7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-InformationSimple": {
+      "fontCharacter": "\\4eb8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Insert": {
+      "fontCharacter": "\\4eb9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Juejin": {
+      "fontCharacter": "\\4eba",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-KeyboardShortcut": {
+      "fontCharacter": "\\4ebb",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LargeCheck": {
+      "fontCharacter": "\\4ebc",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Left": {
+      "fontCharacter": "\\4ebd",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Like": {
+      "fontCharacter": "\\4ebe",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LikeFill": {
+      "fontCharacter": "\\4ebf",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Link": {
+      "fontCharacter": "\\4ec0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LinkChain": {
+      "fontCharacter": "\\4ec1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Lock": {
+      "fontCharacter": "\\4ec2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Logo": {
+      "fontCharacter": "\\4ec3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LogoNew": {
+      "fontCharacter": "\\4ec4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LogoText": {
+      "fontCharacter": "\\4ec5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-LogoTrae": {
+      "fontCharacter": "\\4ec6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Mcp": {
+      "fontCharacter": "\\4ec7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-McpFold": {
+      "fontCharacter": "\\4ec8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-McpToolIcon": {
+      "fontCharacter": "\\4ec9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-McpUnFold": {
+      "fontCharacter": "\\4eca",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-More": {
+      "fontCharacter": "\\4ecb",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-MoreSimple": {
+      "fontCharacter": "\\4ecc",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NewChat": {
+      "fontCharacter": "\\4ecd",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NewChevronDown": {
+      "fontCharacter": "\\4ece",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NewChevronRight": {
+      "fontCharacter": "\\4ecf",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NewWindow": {
+      "fontCharacter": "\\4ed0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Notification": {
+      "fontCharacter": "\\4ed1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NotificationOff": {
+      "fontCharacter": "\\4ed2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-NotificationSettings": {
+      "fontCharacter": "\\4ed3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OpenAI": {
+      "fontCharacter": "\\4ed4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OpenFile": {
+      "fontCharacter": "\\4ed5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OpenFile2": {
+      "fontCharacter": "\\4ed6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OpenLink": {
+      "fontCharacter": "\\4ed7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Option": {
+      "fontCharacter": "\\4ed8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OptionN": {
+      "fontCharacter": "\\4ed9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-OptionY": {
+      "fontCharacter": "\\4eda",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingBottom": {
+      "fontCharacter": "\\4edb",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingHorizontal": {
+      "fontCharacter": "\\4edc",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingLeft": {
+      "fontCharacter": "\\4edd",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingRight": {
+      "fontCharacter": "\\4ede",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingTop": {
+      "fontCharacter": "\\4edf",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PaddingVertical": {
+      "fontCharacter": "\\4ee0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelLayoutIcon": {
+      "fontCharacter": "\\4ee1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelLayoutIconOff": {
+      "fontCharacter": "\\4ee2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelLeft": {
+      "fontCharacter": "\\4ee3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelLeftOff": {
+      "fontCharacter": "\\4ee4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelRight": {
+      "fontCharacter": "\\4ee5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PanelRightOff": {
+      "fontCharacter": "\\4ee6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Pause": {
+      "fontCharacter": "\\4ee7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Pin": {
+      "fontCharacter": "\\4ee8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Plan": {
+      "fontCharacter": "\\4ee9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Play": {
+      "fontCharacter": "\\4eea",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PlayFill": {
+      "fontCharacter": "\\4eeb",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Plus": {
+      "fontCharacter": "\\4eec",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Plus2": {
+      "fontCharacter": "\\4eed",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PlusCircle": {
+      "fontCharacter": "\\4eee",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PlusFilled": {
+      "fontCharacter": "\\4eef",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PlusSimple": {
+      "fontCharacter": "\\4ef0",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Point": {
+      "fontCharacter": "\\4ef1",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PositionAbsolute": {
+      "fontCharacter": "\\4ef2",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PreserveCase": {
+      "fontCharacter": "\\4ef3",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Preview": {
+      "fontCharacter": "\\4ef4",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PreviewDevtool": {
+      "fontCharacter": "\\4ef5",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProAppstore": {
+      "fontCharacter": "\\4ef6",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProCodesearch": {
+      "fontCharacter": "\\4ef7",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProDebug": {
+      "fontCharacter": "\\4ef8",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProFile": {
+      "fontCharacter": "\\4ef9",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProFolder": {
+      "fontCharacter": "\\4efa",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProSetting": {
+      "fontCharacter": "\\4efb",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProSourcecontrol": {
+      "fontCharacter": "\\4efc",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ProjectRule": {
+      "fontCharacter": "\\4efd",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-PuzzlePlugin": {
+      "fontCharacter": "\\4efe",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-QuestionMarkCircle": {
+      "fontCharacter": "\\4eff",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-QuestionMarkCircleFill": {
+      "fontCharacter": "\\4f00",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-QuotaCpu": {
+      "fontCharacter": "\\4f01",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-QuotaDisk": {
+      "fontCharacter": "\\4f02",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-QuotaMemory": {
+      "fontCharacter": "\\4f03",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Random": {
+      "fontCharacter": "\\4f04",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RecordStop": {
+      "fontCharacter": "\\4f05",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Refresh": {
+      "fontCharacter": "\\4f06",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Regenerate": {
+      "fontCharacter": "\\4f07",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RegularExpression": {
+      "fontCharacter": "\\4f08",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Reload": {
+      "fontCharacter": "\\4f09",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RemoteExplore": {
+      "fontCharacter": "\\4f0a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RemoteHost": {
+      "fontCharacter": "\\4f0b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RemoteLink": {
+      "fontCharacter": "\\4f0c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Replace": {
+      "fontCharacter": "\\4f0d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ReplaceAll": {
+      "fontCharacter": "\\4f0e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Resources": {
+      "fontCharacter": "\\4f0f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Retry": {
+      "fontCharacter": "\\4f10",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Revert": {
+      "fontCharacter": "\\4f11",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Right": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Rotate": {
+      "fontCharacter": "\\4f13",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-RotateDevice": {
+      "fontCharacter": "\\4f14",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Rules": {
+      "fontCharacter": "\\4f15",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SaveFile": {
+      "fontCharacter": "\\4f16",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Search": {
+      "fontCharacter": "\\4f17",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SearchCommand": {
+      "fontCharacter": "\\4f18",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SearchFile": {
+      "fontCharacter": "\\4f19",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SearchText": {
+      "fontCharacter": "\\4f1a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Selected": {
+      "fontCharacter": "\\4f1b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Send": {
+      "fontCharacter": "\\4f1c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SendFill": {
+      "fontCharacter": "\\4f1d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SettingIgnoreFiles": {
+      "fontCharacter": "\\4f1e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Settings": {
+      "fontCharacter": "\\4f1f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Share": {
+      "fontCharacter": "\\4f20",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Slash": {
+      "fontCharacter": "\\4f21",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SlashCommand": {
+      "fontCharacter": "\\4f22",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SmallClose": {
+      "fontCharacter": "\\4f23",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SmallDown": {
+      "fontCharacter": "\\4f24",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SmallLeft": {
+      "fontCharacter": "\\4f25",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SmallRight": {
+      "fontCharacter": "\\4f26",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SmallUp": {
+      "fontCharacter": "\\4f27",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SoloSwitch": {
+      "fontCharacter": "\\4f28",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SoloTools": {
+      "fontCharacter": "\\4f29",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Sparkle": {
+      "fontCharacter": "\\4f2a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Split": {
+      "fontCharacter": "\\4f2b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Stop": {
+      "fontCharacter": "\\4f2c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-StopFill": {
+      "fontCharacter": "\\4f2d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SuccessSimple": {
+      "fontCharacter": "\\4f2e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Switch": {
+      "fontCharacter": "\\4f2f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Symbol": {
+      "fontCharacter": "\\4f30",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SymbolClass": {
+      "fontCharacter": "\\4f31",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-SymbolFunction": {
+      "fontCharacter": "\\4f32",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TRAE1": {
+      "fontCharacter": "\\4f33",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Tab": {
+      "fontCharacter": "\\4f34",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Table": {
+      "fontCharacter": "\\4f35",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Tag": {
+      "fontCharacter": "\\4f36",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Terminal": {
+      "fontCharacter": "\\4f37",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TerminalAddToTerminal": {
+      "fontCharacter": "\\4f38",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TerminalRun": {
+      "fontCharacter": "\\4f39",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TextareaCopy": {
+      "fontCharacter": "\\4f3a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TextareaZoomIn": {
+      "fontCharacter": "\\4f3b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-TextareaZoomUp": {
+      "fontCharacter": "\\4f3c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ThumbDown": {
+      "fontCharacter": "\\4f3d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ThumbDownFull": {
+      "fontCharacter": "\\4f3e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ThumbUp": {
+      "fontCharacter": "\\4f3f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ThumbUpFull": {
+      "fontCharacter": "\\4f40",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ThumbUpSimple": {
+      "fontCharacter": "\\4f41",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Tips": {
+      "fontCharacter": "\\4f42",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Trash": {
+      "fontCharacter": "\\4f43",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Tree": {
+      "fontCharacter": "\\4f44",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Undo": {
+      "fontCharacter": "\\4f45",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Unlike": {
+      "fontCharacter": "\\4f46",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-UnlikeFill": {
+      "fontCharacter": "\\4f47",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Unlock": {
+      "fontCharacter": "\\4f48",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Unpin": {
+      "fontCharacter": "\\4f49",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Up": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Upload": {
+      "fontCharacter": "\\4f4b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Urgent": {
+      "fontCharacter": "\\4f4c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-UserCheck": {
+      "fontCharacter": "\\4f4d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-UserProfile": {
+      "fontCharacter": "\\4f4e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-UserRule": {
+      "fontCharacter": "\\4f4f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Vercel": {
+      "fontCharacter": "\\4f50",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-View": {
+      "fontCharacter": "\\4f51",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewBottom": {
+      "fontCharacter": "\\4f52",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewBottomLine": {
+      "fontCharacter": "\\4f53",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewCopy": {
+      "fontCharacter": "\\4f54",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewCopy2": {
+      "fontCharacter": "\\4f55",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewFilled": {
+      "fontCharacter": "\\4f56",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewLeftLine": {
+      "fontCharacter": "\\4f57",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ViewOutline": {
+      "fontCharacter": "\\4f58",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Viewleft": {
+      "fontCharacter": "\\4f59",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-Vm": {
+      "fontCharacter": "\\4f5a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-WarningFill": {
+      "fontCharacter": "\\4f5b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-WarningSimple": {
+      "fontCharacter": "\\4f5c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-WarningTriangle": {
+      "fontCharacter": "\\4f5d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-WebElementSelect": {
+      "fontCharacter": "\\4f5e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ZoomIn": {
+      "fontCharacter": "\\4f5f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-ZoomOut": {
+      "fontCharacter": "\\4f60",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-icubeMultitask": {
+      "fontCharacter": "\\4f61",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-login": {
+      "fontCharacter": "\\4f62",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-menuToggle": {
+      "fontCharacter": "\\4f63",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-open-link": {
+      "fontCharacter": "\\4f64",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloBrowser": {
+      "fontCharacter": "\\4f65",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloFigma": {
+      "fontCharacter": "\\4f66",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloIde": {
+      "fontCharacter": "\\4f67",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloIntegration": {
+      "fontCharacter": "\\4f68",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloMobile": {
+      "fontCharacter": "\\4f69",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloMobileNew": {
+      "fontCharacter": "\\4f6a",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloPreview": {
+      "fontCharacter": "\\4f6b",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloTerminal": {
+      "fontCharacter": "\\4f6c",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsBrowser": {
+      "fontCharacter": "\\4f6d",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsDiffview": {
+      "fontCharacter": "\\4f6e",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsDocview": {
+      "fontCharacter": "\\4f6f",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsEditor": {
+      "fontCharacter": "\\4f70",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsFigma": {
+      "fontCharacter": "\\4f71",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsIntegrations": {
+      "fontCharacter": "\\4f72",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsSupabase": {
+      "fontCharacter": "\\4f73",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-soloToolsTerminal": {
+      "fontCharacter": "\\4f74",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-twitter-x": {
+      "fontCharacter": "\\4f75",
+      "fontId": "trae-default-codicon"
+    },
+    "icube-usage": {
+      "fontCharacter": "\\4f76",
+      "fontId": "trae-default-codicon"
+    },
+    "add": {
+      "fontCharacter": "\\4eb9",
+      "fontId": "trae-default-codicon"
+    },
+    "plus": {
+      "fontCharacter": "\\ea60",
+      "fontId": "trae-default-codicon"
+    },
+    "gist-new": {
+      "fontCharacter": "\\ea60",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-create": {
+      "fontCharacter": "\\ea60",
+      "fontId": "trae-default-codicon"
+    },
+    "lightbulb": {
+      "fontCharacter": "\\ea61",
+      "fontId": "trae-default-codicon"
+    },
+    "light-bulb": {
+      "fontCharacter": "\\ea61",
+      "fontId": "trae-default-codicon"
+    },
+    "repo": {
+      "fontCharacter": "\\ea62",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-delete": {
+      "fontCharacter": "\\ea62",
+      "fontId": "trae-default-codicon"
+    },
+    "gist-fork": {
+      "fontCharacter": "\\ea63",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-forked": {
+      "fontCharacter": "\\ea63",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request": {
+      "fontCharacter": "\\ea64",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-abandoned": {
+      "fontCharacter": "\\ea64",
+      "fontId": "trae-default-codicon"
+    },
+    "record-keys": {
+      "fontCharacter": "\\ea65",
+      "fontId": "trae-default-codicon"
+    },
+    "keyboard": {
+      "fontCharacter": "\\ea65",
+      "fontId": "trae-default-codicon"
+    },
+    "tag": {
+      "fontCharacter": "\\4f36",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-label": {
+      "fontCharacter": "\\ea66",
+      "fontId": "trae-default-codicon"
+    },
+    "tag-add": {
+      "fontCharacter": "\\ea66",
+      "fontId": "trae-default-codicon"
+    },
+    "tag-remove": {
+      "fontCharacter": "\\ea66",
+      "fontId": "trae-default-codicon"
+    },
+    "person": {
+      "fontCharacter": "\\ea67",
+      "fontId": "trae-default-codicon"
+    },
+    "person-follow": {
+      "fontCharacter": "\\ea67",
+      "fontId": "trae-default-codicon"
+    },
+    "person-outline": {
+      "fontCharacter": "\\ea67",
+      "fontId": "trae-default-codicon"
+    },
+    "person-filled": {
+      "fontCharacter": "\\ea67",
+      "fontId": "trae-default-codicon"
+    },
+    "source-control": {
+      "fontCharacter": "\\4efc",
+      "fontId": "trae-default-codicon"
+    },
+    "mirror": {
+      "fontCharacter": "\\ea69",
+      "fontId": "trae-default-codicon"
+    },
+    "mirror-public": {
+      "fontCharacter": "\\ea69",
+      "fontId": "trae-default-codicon"
+    },
+    "star": {
+      "fontCharacter": "\\ea6a",
+      "fontId": "trae-default-codicon"
+    },
+    "star-add": {
+      "fontCharacter": "\\ea6a",
+      "fontId": "trae-default-codicon"
+    },
+    "star-delete": {
+      "fontCharacter": "\\ea6a",
+      "fontId": "trae-default-codicon"
+    },
+    "star-empty": {
+      "fontCharacter": "\\ea6a",
+      "fontId": "trae-default-codicon"
+    },
+    "comment": {
+      "fontCharacter": "\\ea6b",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-add": {
+      "fontCharacter": "\\ea6b",
+      "fontId": "trae-default-codicon"
+    },
+    "alert": {
+      "fontCharacter": "\\4ed1",
+      "fontId": "trae-default-codicon"
+    },
+    "warning": {
+      "fontCharacter": "\\ea6c",
+      "fontId": "trae-default-codicon"
+    },
+    "search": {
+      "fontCharacter": "\\4f17",
+      "fontId": "trae-default-codicon"
+    },
+    "search-save": {
+      "fontCharacter": "\\ea6d",
+      "fontId": "trae-default-codicon"
+    },
+    "log-out": {
+      "fontCharacter": "\\ea6e",
+      "fontId": "trae-default-codicon"
+    },
+    "sign-out": {
+      "fontCharacter": "\\ea6e",
+      "fontId": "trae-default-codicon"
+    },
+    "log-in": {
+      "fontCharacter": "\\ea6f",
+      "fontId": "trae-default-codicon"
+    },
+    "sign-in": {
+      "fontCharacter": "\\ea6f",
+      "fontId": "trae-default-codicon"
+    },
+    "eye": {
+      "fontCharacter": "\\ea70",
+      "fontId": "trae-default-codicon"
+    },
+    "eye-unwatch": {
+      "fontCharacter": "\\ea70",
+      "fontId": "trae-default-codicon"
+    },
+    "eye-watch": {
+      "fontCharacter": "\\ea70",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-filled": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "primitive-dot": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "close-dirty": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-disabled": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-hint": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-decoration-success": {
+      "fontCharacter": "\\ea71",
+      "fontId": "trae-default-codicon"
+    },
+    "primitive-square": {
+      "fontCharacter": "\\ea72",
+      "fontId": "trae-default-codicon"
+    },
+    "edit": {
+      "fontCharacter": "\\4e98",
+      "fontId": "trae-default-codicon"
+    },
+    "pencil": {
+      "fontCharacter": "\\ea73",
+      "fontId": "trae-default-codicon"
+    },
+    "info": {
+      "fontCharacter": "\\4eb5",
+      "fontId": "trae-default-codicon"
+    },
+    "issue-opened": {
+      "fontCharacter": "\\ea74",
+      "fontId": "trae-default-codicon"
+    },
+    "gist-private": {
+      "fontCharacter": "\\ea75",
+      "fontId": "trae-default-codicon"
+    },
+    "git-fork-private": {
+      "fontCharacter": "\\ea75",
+      "fontId": "trae-default-codicon"
+    },
+    "lock": {
+      "fontCharacter": "\\4ec2",
+      "fontId": "trae-default-codicon"
+    },
+    "mirror-private": {
+      "fontCharacter": "\\ea75",
+      "fontId": "trae-default-codicon"
+    },
+    "close": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "remove-close": {
+      "fontCharacter": "\\ea76",
+      "fontId": "trae-default-codicon"
+    },
+    "x": {
+      "fontCharacter": "\\ea76",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-sync": {
+      "fontCharacter": "\\ea77",
+      "fontId": "trae-default-codicon"
+    },
+    "sync": {
+      "fontCharacter": "\\ea77",
+      "fontId": "trae-default-codicon"
+    },
+    "clone": {
+      "fontCharacter": "\\4e73",
+      "fontId": "trae-default-codicon"
+    },
+    "desktop-download": {
+      "fontCharacter": "\\ea78",
+      "fontId": "trae-default-codicon"
+    },
+    "beaker": {
+      "fontCharacter": "\\ea79",
+      "fontId": "trae-default-codicon"
+    },
+    "microscope": {
+      "fontCharacter": "\\ea79",
+      "fontId": "trae-default-codicon"
+    },
+    "vm": {
+      "fontCharacter": "\\4f5a",
+      "fontId": "trae-default-codicon"
+    },
+    "device-desktop": {
+      "fontCharacter": "\\ea7a",
+      "fontId": "trae-default-codicon"
+    },
+    "file": {
+      "fontCharacter": "\\ea7b",
+      "fontId": "trae-default-codicon"
+    },
+    "more": {
+      "fontCharacter": "\\4ecb",
+      "fontId": "trae-default-codicon"
+    },
+    "ellipsis": {
+      "fontCharacter": "\\4ecb",
+      "fontId": "trae-default-codicon"
+    },
+    "kebab-horizontal": {
+      "fontCharacter": "\\ea7c",
+      "fontId": "trae-default-codicon"
+    },
+    "mail-reply": {
+      "fontCharacter": "\\ea7d",
+      "fontId": "trae-default-codicon"
+    },
+    "reply": {
+      "fontCharacter": "\\ea7d",
+      "fontId": "trae-default-codicon"
+    },
+    "organization": {
+      "fontCharacter": "\\ea7e",
+      "fontId": "trae-default-codicon"
+    },
+    "organization-filled": {
+      "fontCharacter": "\\ea7e",
+      "fontId": "trae-default-codicon"
+    },
+    "organization-outline": {
+      "fontCharacter": "\\ea7e",
+      "fontId": "trae-default-codicon"
+    },
+    "new-file": {
+      "fontCharacter": "\\4e26",
+      "fontId": "trae-default-codicon"
+    },
+    "file-add": {
+      "fontCharacter": "\\ea7f",
+      "fontId": "trae-default-codicon"
+    },
+    "new-folder": {
+      "fontCharacter": "\\4e27",
+      "fontId": "trae-default-codicon"
+    },
+    "file-directory-create": {
+      "fontCharacter": "\\ea80",
+      "fontId": "trae-default-codicon"
+    },
+    "trash": {
+      "fontCharacter": "\\4f43",
+      "fontId": "trae-default-codicon"
+    },
+    "trashcan": {
+      "fontCharacter": "\\ea81",
+      "fontId": "trae-default-codicon"
+    },
+    "history": {
+      "fontCharacter": "\\4eb1",
+      "fontId": "trae-default-codicon"
+    },
+    "clock": {
+      "fontCharacter": "\\ea82",
+      "fontId": "trae-default-codicon"
+    },
+    "folder": {
+      "fontCharacter": "\\4ea3",
+      "fontId": "trae-default-codicon"
+    },
+    "file-directory": {
+      "fontCharacter": "\\ea83",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-folder": {
+      "fontCharacter": "\\ea83",
+      "fontId": "trae-default-codicon"
+    },
+    "logo-github": {
+      "fontCharacter": "\\ea84",
+      "fontId": "trae-default-codicon"
+    },
+    "mark-github": {
+      "fontCharacter": "\\ea84",
+      "fontId": "trae-default-codicon"
+    },
+    "github": {
+      "fontCharacter": "\\ea84",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal": {
+      "fontCharacter": "\\ea85",
+      "fontId": "trae-default-codicon"
+    },
+    "console": {
+      "fontCharacter": "\\4f37",
+      "fontId": "trae-default-codicon"
+    },
+    "repl": {
+      "fontCharacter": "\\ea85",
+      "fontId": "trae-default-codicon"
+    },
+    "zap": {
+      "fontCharacter": "\\ea86",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-event": {
+      "fontCharacter": "\\ea86",
+      "fontId": "trae-default-codicon"
+    },
+    "error": {
+      "fontCharacter": "\\4e9b",
+      "fontId": "trae-default-codicon"
+    },
+    "stop": {
+      "fontCharacter": "\\4f2c",
+      "fontId": "trae-default-codicon"
+    },
+    "variable": {
+      "fontCharacter": "\\ea88",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-variable": {
+      "fontCharacter": "\\ea88",
+      "fontId": "trae-default-codicon"
+    },
+    "array": {
+      "fontCharacter": "\\ea8a",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-array": {
+      "fontCharacter": "\\ea8a",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-module": {
+      "fontCharacter": "\\ea8b",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-package": {
+      "fontCharacter": "\\ea8b",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-namespace": {
+      "fontCharacter": "\\ea8b",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-object": {
+      "fontCharacter": "\\ea8b",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-method": {
+      "fontCharacter": "\\ea8c",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-function": {
+      "fontCharacter": "\\4f32",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-constructor": {
+      "fontCharacter": "\\ea8c",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-boolean": {
+      "fontCharacter": "\\ea8f",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-null": {
+      "fontCharacter": "\\ea8f",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-numeric": {
+      "fontCharacter": "\\ea90",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-number": {
+      "fontCharacter": "\\ea90",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-structure": {
+      "fontCharacter": "\\ea91",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-struct": {
+      "fontCharacter": "\\ea91",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-parameter": {
+      "fontCharacter": "\\ea92",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-type-parameter": {
+      "fontCharacter": "\\ea92",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-key": {
+      "fontCharacter": "\\ea93",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-text": {
+      "fontCharacter": "\\ea93",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-reference": {
+      "fontCharacter": "\\ea94",
+      "fontId": "trae-default-codicon"
+    },
+    "go-to-file": {
+      "fontCharacter": "\\ea94",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-enum": {
+      "fontCharacter": "\\ea95",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-value": {
+      "fontCharacter": "\\ea95",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-ruler": {
+      "fontCharacter": "\\ea96",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-unit": {
+      "fontCharacter": "\\ea96",
+      "fontId": "trae-default-codicon"
+    },
+    "activate-breakpoints": {
+      "fontCharacter": "\\ea97",
+      "fontId": "trae-default-codicon"
+    },
+    "archive": {
+      "fontCharacter": "\\ea98",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-both": {
+      "fontCharacter": "\\ea99",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-down": {
+      "fontCharacter": "\\4e40",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\4e41",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\4e43",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-small-down": {
+      "fontCharacter": "\\ea9d",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-small-left": {
+      "fontCharacter": "\\ea9e",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-small-right": {
+      "fontCharacter": "\\ea9f",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-small-up": {
+      "fontCharacter": "\\eaa0",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\4e45",
+      "fontId": "trae-default-codicon"
+    },
+    "bell": {
+      "fontCharacter": "\\4ed1",
+      "fontId": "trae-default-codicon"
+    },
+    "bold": {
+      "fontCharacter": "\\eaa3",
+      "fontId": "trae-default-codicon"
+    },
+    "book": {
+      "fontCharacter": "\\eaa4",
+      "fontId": "trae-default-codicon"
+    },
+    "bookmark": {
+      "fontCharacter": "\\eaa5",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-conditional-unverified": {
+      "fontCharacter": "\\eaa6",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-conditional": {
+      "fontCharacter": "\\eaa7",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-conditional-disabled": {
+      "fontCharacter": "\\eaa7",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-data-unverified": {
+      "fontCharacter": "\\eaa8",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-data": {
+      "fontCharacter": "\\eaa9",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-data-disabled": {
+      "fontCharacter": "\\eaa9",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-log-unverified": {
+      "fontCharacter": "\\eaaa",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-log": {
+      "fontCharacter": "\\eaab",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-log-disabled": {
+      "fontCharacter": "\\eaab",
+      "fontId": "trae-default-codicon"
+    },
+    "briefcase": {
+      "fontCharacter": "\\eaac",
+      "fontId": "trae-default-codicon"
+    },
+    "broadcast": {
+      "fontCharacter": "\\eaad",
+      "fontId": "trae-default-codicon"
+    },
+    "browser": {
+      "fontCharacter": "\\4e50",
+      "fontId": "trae-default-codicon"
+    },
+    "bug": {
+      "fontCharacter": "\\eaaf",
+      "fontId": "trae-default-codicon"
+    },
+    "calendar": {
+      "fontCharacter": "\\eab0",
+      "fontId": "trae-default-codicon"
+    },
+    "case-sensitive": {
+      "fontCharacter": "\\eab1",
+      "fontId": "trae-default-codicon"
+    },
+    "check": {
+      "fontCharacter": "\\4e57",
+      "fontId": "trae-default-codicon"
+    },
+    "checklist": {
+      "fontCharacter": "\\eab3",
+      "fontId": "trae-default-codicon"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\eab4",
+      "fontId": "trae-default-codicon"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\eab5",
+      "fontId": "trae-default-codicon"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\eab6",
+      "fontId": "trae-default-codicon"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\eab7",
+      "fontId": "trae-default-codicon"
+    },
+    "chrome-close": {
+      "fontCharacter": "\\eab8",
+      "fontId": "trae-default-codicon"
+    },
+    "chrome-maximize": {
+      "fontCharacter": "\\eab9",
+      "fontId": "trae-default-codicon"
+    },
+    "chrome-minimize": {
+      "fontCharacter": "\\eaba",
+      "fontId": "trae-default-codicon"
+    },
+    "chrome-restore": {
+      "fontCharacter": "\\eabb",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-outline": {
+      "fontCharacter": "\\eabc",
+      "fontId": "trae-default-codicon"
+    },
+    "circle": {
+      "fontCharacter": "\\eabc",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-unverified": {
+      "fontCharacter": "\\eabc",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-decoration-incomplete": {
+      "fontCharacter": "\\eabc",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-slash": {
+      "fontCharacter": "\\eabd",
+      "fontId": "trae-default-codicon"
+    },
+    "circuit-board": {
+      "fontCharacter": "\\eabe",
+      "fontId": "trae-default-codicon"
+    },
+    "clear-all": {
+      "fontCharacter": "\\4e5b",
+      "fontId": "trae-default-codicon"
+    },
+    "clippy": {
+      "fontCharacter": "\\eac0",
+      "fontId": "trae-default-codicon"
+    },
+    "close-all": {
+      "fontCharacter": "\\eac1",
+      "fontId": "trae-default-codicon"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\eac2",
+      "fontId": "trae-default-codicon"
+    },
+    "cloud-upload": {
+      "fontCharacter": "\\eac3",
+      "fontId": "trae-default-codicon"
+    },
+    "code": {
+      "fontCharacter": "\\eac4",
+      "fontId": "trae-default-codicon"
+    },
+    "collapse-all": {
+      "fontCharacter": "\\4e62",
+      "fontId": "trae-default-codicon"
+    },
+    "color-mode": {
+      "fontCharacter": "\\eac6",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-discussion": {
+      "fontCharacter": "\\eac7",
+      "fontId": "trae-default-codicon"
+    },
+    "credit-card": {
+      "fontCharacter": "\\eac9",
+      "fontId": "trae-default-codicon"
+    },
+    "dash": {
+      "fontCharacter": "\\eacc",
+      "fontId": "trae-default-codicon"
+    },
+    "dashboard": {
+      "fontCharacter": "\\eacd",
+      "fontId": "trae-default-codicon"
+    },
+    "database": {
+      "fontCharacter": "\\eace",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\eacf",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-disconnect": {
+      "fontCharacter": "\\ead0",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-pause": {
+      "fontCharacter": "\\ead1",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\ead2",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-start": {
+      "fontCharacter": "\\4e82",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\ead4",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\ead5",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\ead6",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-stop": {
+      "fontCharacter": "\\ead7",
+      "fontId": "trae-default-codicon"
+    },
+    "debug": {
+      "fontCharacter": "\\4ef8",
+      "fontId": "trae-default-codicon"
+    },
+    "device-camera-video": {
+      "fontCharacter": "\\ead9",
+      "fontId": "trae-default-codicon"
+    },
+    "device-camera": {
+      "fontCharacter": "\\eada",
+      "fontId": "trae-default-codicon"
+    },
+    "device-mobile": {
+      "fontCharacter": "\\eadb",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-added": {
+      "fontCharacter": "\\eadc",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-ignored": {
+      "fontCharacter": "\\eadd",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-modified": {
+      "fontCharacter": "\\eade",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-removed": {
+      "fontCharacter": "\\eadf",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-renamed": {
+      "fontCharacter": "\\eae0",
+      "fontId": "trae-default-codicon"
+    },
+    "diff": {
+      "fontCharacter": "\\4e87",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-sidebyside": {
+      "fontCharacter": "\\eae1",
+      "fontId": "trae-default-codicon"
+    },
+    "discard": {
+      "fontCharacter": "\\eae2",
+      "fontId": "trae-default-codicon"
+    },
+    "editor-layout": {
+      "fontCharacter": "\\eae3",
+      "fontId": "trae-default-codicon"
+    },
+    "empty-window": {
+      "fontCharacter": "\\eae4",
+      "fontId": "trae-default-codicon"
+    },
+    "exclude": {
+      "fontCharacter": "\\eae5",
+      "fontId": "trae-default-codicon"
+    },
+    "extensions": {
+      "fontCharacter": "\\4ef6",
+      "fontId": "trae-default-codicon"
+    },
+    "eye-closed": {
+      "fontCharacter": "\\eae7",
+      "fontId": "trae-default-codicon"
+    },
+    "file-binary": {
+      "fontCharacter": "\\eae8",
+      "fontId": "trae-default-codicon"
+    },
+    "file-code": {
+      "fontCharacter": "\\eae9",
+      "fontId": "trae-default-codicon"
+    },
+    "file-media": {
+      "fontCharacter": "\\eaea",
+      "fontId": "trae-default-codicon"
+    },
+    "file-pdf": {
+      "fontCharacter": "\\eaeb",
+      "fontId": "trae-default-codicon"
+    },
+    "file-submodule": {
+      "fontCharacter": "\\eaec",
+      "fontId": "trae-default-codicon"
+    },
+    "file-symlink-directory": {
+      "fontCharacter": "\\eaed",
+      "fontId": "trae-default-codicon"
+    },
+    "file-symlink-file": {
+      "fontCharacter": "\\eaee",
+      "fontId": "trae-default-codicon"
+    },
+    "file-zip": {
+      "fontCharacter": "\\eaef",
+      "fontId": "trae-default-codicon"
+    },
+    "files": {
+      "fontCharacter": "\\4efa",
+      "fontId": "trae-default-codicon"
+    },
+    "filter": {
+      "fontCharacter": "\\4e9f",
+      "fontId": "trae-default-codicon"
+    },
+    "flame": {
+      "fontCharacter": "\\eaf2",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-down": {
+      "fontCharacter": "\\eaf3",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-up": {
+      "fontCharacter": "\\eaf4",
+      "fontId": "trae-default-codicon"
+    },
+    "fold": {
+      "fontCharacter": "\\eaf5",
+      "fontId": "trae-default-codicon"
+    },
+    "folder-active": {
+      "fontCharacter": "\\eaf6",
+      "fontId": "trae-default-codicon"
+    },
+    "folder-opened": {
+      "fontCharacter": "\\eaf7",
+      "fontId": "trae-default-codicon"
+    },
+    "gear": {
+      "fontCharacter": "\\4f1f",
+      "fontId": "trae-default-codicon"
+    },
+    "gift": {
+      "fontCharacter": "\\4eab",
+      "fontId": "trae-default-codicon"
+    },
+    "gist-secret": {
+      "fontCharacter": "\\eafa",
+      "fontId": "trae-default-codicon"
+    },
+    "gist": {
+      "fontCharacter": "\\eafb",
+      "fontId": "trae-default-codicon"
+    },
+    "git-commit": {
+      "fontCharacter": "\\eafc",
+      "fontId": "trae-default-codicon"
+    },
+    "git-compare": {
+      "fontCharacter": "\\eafd",
+      "fontId": "trae-default-codicon"
+    },
+    "compare-changes": {
+      "fontCharacter": "\\eafd",
+      "fontId": "trae-default-codicon"
+    },
+    "git-merge": {
+      "fontCharacter": "\\eafe",
+      "fontId": "trae-default-codicon"
+    },
+    "github-action": {
+      "fontCharacter": "\\eaff",
+      "fontId": "trae-default-codicon"
+    },
+    "github-alt": {
+      "fontCharacter": "\\eb00",
+      "fontId": "trae-default-codicon"
+    },
+    "globe": {
+      "fontCharacter": "\\eb01",
+      "fontId": "trae-default-codicon"
+    },
+    "grabber": {
+      "fontCharacter": "\\eb02",
+      "fontId": "trae-default-codicon"
+    },
+    "graph": {
+      "fontCharacter": "\\eb03",
+      "fontId": "trae-default-codicon"
+    },
+    "gripper": {
+      "fontCharacter": "\\eb04",
+      "fontId": "trae-default-codicon"
+    },
+    "heart": {
+      "fontCharacter": "\\eb05",
+      "fontId": "trae-default-codicon"
+    },
+    "home": {
+      "fontCharacter": "\\4eb2",
+      "fontId": "trae-default-codicon"
+    },
+    "horizontal-rule": {
+      "fontCharacter": "\\eb07",
+      "fontId": "trae-default-codicon"
+    },
+    "hubot": {
+      "fontCharacter": "\\eb08",
+      "fontId": "trae-default-codicon"
+    },
+    "inbox": {
+      "fontCharacter": "\\eb09",
+      "fontId": "trae-default-codicon"
+    },
+    "issue-reopened": {
+      "fontCharacter": "\\eb0b",
+      "fontId": "trae-default-codicon"
+    },
+    "issues": {
+      "fontCharacter": "\\eb0c",
+      "fontId": "trae-default-codicon"
+    },
+    "italic": {
+      "fontCharacter": "\\eb0d",
+      "fontId": "trae-default-codicon"
+    },
+    "jersey": {
+      "fontCharacter": "\\eb0e",
+      "fontId": "trae-default-codicon"
+    },
+    "json": {
+      "fontCharacter": "\\eb0f",
+      "fontId": "trae-default-codicon"
+    },
+    "bracket": {
+      "fontCharacter": "\\eb0f",
+      "fontId": "trae-default-codicon"
+    },
+    "kebab-vertical": {
+      "fontCharacter": "\\eb10",
+      "fontId": "trae-default-codicon"
+    },
+    "key": {
+      "fontCharacter": "\\eb11",
+      "fontId": "trae-default-codicon"
+    },
+    "law": {
+      "fontCharacter": "\\eb12",
+      "fontId": "trae-default-codicon"
+    },
+    "lightbulb-autofix": {
+      "fontCharacter": "\\eb13",
+      "fontId": "trae-default-codicon"
+    },
+    "link-external": {
+      "fontCharacter": "\\eb14",
+      "fontId": "trae-default-codicon"
+    },
+    "link": {
+      "fontCharacter": "\\4ec0",
+      "fontId": "trae-default-codicon"
+    },
+    "list-ordered": {
+      "fontCharacter": "\\eb16",
+      "fontId": "trae-default-codicon"
+    },
+    "list-unordered": {
+      "fontCharacter": "\\eb17",
+      "fontId": "trae-default-codicon"
+    },
+    "live-share": {
+      "fontCharacter": "\\eb18",
+      "fontId": "trae-default-codicon"
+    },
+    "loading": {
+      "fontCharacter": "\\eb19",
+      "fontId": "trae-default-codicon"
+    },
+    "location": {
+      "fontCharacter": "\\eb1a",
+      "fontId": "trae-default-codicon"
+    },
+    "mail-read": {
+      "fontCharacter": "\\eb1b",
+      "fontId": "trae-default-codicon"
+    },
+    "mail": {
+      "fontCharacter": "\\eb1c",
+      "fontId": "trae-default-codicon"
+    },
+    "markdown": {
+      "fontCharacter": "\\eb1d",
+      "fontId": "trae-default-codicon"
+    },
+    "megaphone": {
+      "fontCharacter": "\\eb1e",
+      "fontId": "trae-default-codicon"
+    },
+    "mention": {
+      "fontCharacter": "\\eb1f",
+      "fontId": "trae-default-codicon"
+    },
+    "milestone": {
+      "fontCharacter": "\\eb20",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-milestone": {
+      "fontCharacter": "\\eb20",
+      "fontId": "trae-default-codicon"
+    },
+    "mortar-board": {
+      "fontCharacter": "\\eb21",
+      "fontId": "trae-default-codicon"
+    },
+    "move": {
+      "fontCharacter": "\\eb22",
+      "fontId": "trae-default-codicon"
+    },
+    "multiple-windows": {
+      "fontCharacter": "\\eb23",
+      "fontId": "trae-default-codicon"
+    },
+    "mute": {
+      "fontCharacter": "\\eb24",
+      "fontId": "trae-default-codicon"
+    },
+    "no-newline": {
+      "fontCharacter": "\\eb25",
+      "fontId": "trae-default-codicon"
+    },
+    "note": {
+      "fontCharacter": "\\eb26",
+      "fontId": "trae-default-codicon"
+    },
+    "octoface": {
+      "fontCharacter": "\\eb27",
+      "fontId": "trae-default-codicon"
+    },
+    "open-preview": {
+      "fontCharacter": "\\eb28",
+      "fontId": "trae-default-codicon"
+    },
+    "package": {
+      "fontCharacter": "\\eb29",
+      "fontId": "trae-default-codicon"
+    },
+    "paintcan": {
+      "fontCharacter": "\\eb2a",
+      "fontId": "trae-default-codicon"
+    },
+    "pin": {
+      "fontCharacter": "\\4ee8",
+      "fontId": "trae-default-codicon"
+    },
+    "play": {
+      "fontCharacter": "\\eb2c",
+      "fontId": "trae-default-codicon"
+    },
+    "run": {
+      "fontCharacter": "\\4ef8",
+      "fontId": "trae-default-codicon"
+    },
+    "plug": {
+      "fontCharacter": "\\eb2d",
+      "fontId": "trae-default-codicon"
+    },
+    "preserve-case": {
+      "fontCharacter": "\\4ef3",
+      "fontId": "trae-default-codicon"
+    },
+    "preview": {
+      "fontCharacter": "\\4ef4",
+      "fontId": "trae-default-codicon"
+    },
+    "project": {
+      "fontCharacter": "\\eb30",
+      "fontId": "trae-default-codicon"
+    },
+    "pulse": {
+      "fontCharacter": "\\eb31",
+      "fontId": "trae-default-codicon"
+    },
+    "question": {
+      "fontCharacter": "\\eb32",
+      "fontId": "trae-default-codicon"
+    },
+    "quote": {
+      "fontCharacter": "\\eb33",
+      "fontId": "trae-default-codicon"
+    },
+    "radio-tower": {
+      "fontCharacter": "\\eb34",
+      "fontId": "trae-default-codicon"
+    },
+    "reactions": {
+      "fontCharacter": "\\eb35",
+      "fontId": "trae-default-codicon"
+    },
+    "references": {
+      "fontCharacter": "\\eb36",
+      "fontId": "trae-default-codicon"
+    },
+    "refresh": {
+      "fontCharacter": "\\4f06",
+      "fontId": "trae-default-codicon"
+    },
+    "regex": {
+      "fontCharacter": "\\eb38",
+      "fontId": "trae-default-codicon"
+    },
+    "remote-explorer": {
+      "fontCharacter": "\\eb39",
+      "fontId": "trae-default-codicon"
+    },
+    "remote": {
+      "fontCharacter": "\\eb3a",
+      "fontId": "trae-default-codicon"
+    },
+    "remove": {
+      "fontCharacter": "\\eb3b",
+      "fontId": "trae-default-codicon"
+    },
+    "replace-all": {
+      "fontCharacter": "\\4f0e",
+      "fontId": "trae-default-codicon"
+    },
+    "replace": {
+      "fontCharacter": "\\4f0d",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-clone": {
+      "fontCharacter": "\\eb3e",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-force-push": {
+      "fontCharacter": "\\eb3f",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-pull": {
+      "fontCharacter": "\\eb40",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-push": {
+      "fontCharacter": "\\eb41",
+      "fontId": "trae-default-codicon"
+    },
+    "report": {
+      "fontCharacter": "\\eb42",
+      "fontId": "trae-default-codicon"
+    },
+    "request-changes": {
+      "fontCharacter": "\\eb43",
+      "fontId": "trae-default-codicon"
+    },
+    "rocket": {
+      "fontCharacter": "\\eb44",
+      "fontId": "trae-default-codicon"
+    },
+    "root-folder-opened": {
+      "fontCharacter": "\\eb45",
+      "fontId": "trae-default-codicon"
+    },
+    "root-folder": {
+      "fontCharacter": "\\eb46",
+      "fontId": "trae-default-codicon"
+    },
+    "rss": {
+      "fontCharacter": "\\eb47",
+      "fontId": "trae-default-codicon"
+    },
+    "ruby": {
+      "fontCharacter": "\\eb48",
+      "fontId": "trae-default-codicon"
+    },
+    "save-all": {
+      "fontCharacter": "\\eb49",
+      "fontId": "trae-default-codicon"
+    },
+    "save-as": {
+      "fontCharacter": "\\eb4a",
+      "fontId": "trae-default-codicon"
+    },
+    "save": {
+      "fontCharacter": "\\eb4b",
+      "fontId": "trae-default-codicon"
+    },
+    "screen-full": {
+      "fontCharacter": "\\4f3c",
+      "fontId": "trae-default-codicon"
+    },
+    "screen-normal": {
+      "fontCharacter": "\\4f3b",
+      "fontId": "trae-default-codicon"
+    },
+    "search-stop": {
+      "fontCharacter": "\\eb4e",
+      "fontId": "trae-default-codicon"
+    },
+    "server": {
+      "fontCharacter": "\\eb50",
+      "fontId": "trae-default-codicon"
+    },
+    "settings-gear": {
+      "fontCharacter": "\\4f1f",
+      "fontId": "trae-default-codicon"
+    },
+    "settings": {
+      "fontCharacter": "\\4f1f",
+      "fontId": "trae-default-codicon"
+    },
+    "shield": {
+      "fontCharacter": "\\eb53",
+      "fontId": "trae-default-codicon"
+    },
+    "smiley": {
+      "fontCharacter": "\\eb54",
+      "fontId": "trae-default-codicon"
+    },
+    "sort-precedence": {
+      "fontCharacter": "\\eb55",
+      "fontId": "trae-default-codicon"
+    },
+    "split-horizontal": {
+      "fontCharacter": "\\4f54",
+      "fontId": "trae-default-codicon"
+    },
+    "split-vertical": {
+      "fontCharacter": "\\4f55",
+      "fontId": "trae-default-codicon"
+    },
+    "squirrel": {
+      "fontCharacter": "\\eb58",
+      "fontId": "trae-default-codicon"
+    },
+    "star-full": {
+      "fontCharacter": "\\eb59",
+      "fontId": "trae-default-codicon"
+    },
+    "star-half": {
+      "fontCharacter": "\\eb5a",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-class": {
+      "fontCharacter": "\\4f31",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-color": {
+      "fontCharacter": "\\eb5c",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-constant": {
+      "fontCharacter": "\\eb5d",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-enum-member": {
+      "fontCharacter": "\\eb5e",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-field": {
+      "fontCharacter": "\\eb5f",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-file": {
+      "fontCharacter": "\\eb60",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-interface": {
+      "fontCharacter": "\\eb61",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-keyword": {
+      "fontCharacter": "\\eb62",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-misc": {
+      "fontCharacter": "\\eb63",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-operator": {
+      "fontCharacter": "\\eb64",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-property": {
+      "fontCharacter": "\\eb65",
+      "fontId": "trae-default-codicon"
+    },
+    "wrench": {
+      "fontCharacter": "\\eb65",
+      "fontId": "trae-default-codicon"
+    },
+    "wrench-subaction": {
+      "fontCharacter": "\\eb65",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-snippet": {
+      "fontCharacter": "\\eb66",
+      "fontId": "trae-default-codicon"
+    },
+    "tasklist": {
+      "fontCharacter": "\\eb67",
+      "fontId": "trae-default-codicon"
+    },
+    "telescope": {
+      "fontCharacter": "\\eb68",
+      "fontId": "trae-default-codicon"
+    },
+    "text-size": {
+      "fontCharacter": "\\eb69",
+      "fontId": "trae-default-codicon"
+    },
+    "three-bars": {
+      "fontCharacter": "\\eb6a",
+      "fontId": "trae-default-codicon"
+    },
+    "thumbsdown": {
+      "fontCharacter": "\\eb6b",
+      "fontId": "trae-default-codicon"
+    },
+    "thumbsup": {
+      "fontCharacter": "\\eb6c",
+      "fontId": "trae-default-codicon"
+    },
+    "tools": {
+      "fontCharacter": "\\eb6d",
+      "fontId": "trae-default-codicon"
+    },
+    "triangle-down": {
+      "fontCharacter": "\\eb6e",
+      "fontId": "trae-default-codicon"
+    },
+    "triangle-left": {
+      "fontCharacter": "\\eb6f",
+      "fontId": "trae-default-codicon"
+    },
+    "triangle-right": {
+      "fontCharacter": "\\eb70",
+      "fontId": "trae-default-codicon"
+    },
+    "triangle-up": {
+      "fontCharacter": "\\eb71",
+      "fontId": "trae-default-codicon"
+    },
+    "twitter": {
+      "fontCharacter": "\\eb72",
+      "fontId": "trae-default-codicon"
+    },
+    "unfold": {
+      "fontCharacter": "\\eb73",
+      "fontId": "trae-default-codicon"
+    },
+    "unlock": {
+      "fontCharacter": "\\4f48",
+      "fontId": "trae-default-codicon"
+    },
+    "unmute": {
+      "fontCharacter": "\\eb75",
+      "fontId": "trae-default-codicon"
+    },
+    "unverified": {
+      "fontCharacter": "\\eb76",
+      "fontId": "trae-default-codicon"
+    },
+    "verified": {
+      "fontCharacter": "\\eb77",
+      "fontId": "trae-default-codicon"
+    },
+    "versions": {
+      "fontCharacter": "\\eb78",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-active": {
+      "fontCharacter": "\\eb79",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-outline": {
+      "fontCharacter": "\\eb7a",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-running": {
+      "fontCharacter": "\\eb7b",
+      "fontId": "trae-default-codicon"
+    },
+    "watch": {
+      "fontCharacter": "\\eb7c",
+      "fontId": "trae-default-codicon"
+    },
+    "whitespace": {
+      "fontCharacter": "\\eb7d",
+      "fontId": "trae-default-codicon"
+    },
+    "whole-word": {
+      "fontCharacter": "\\eb7e",
+      "fontId": "trae-default-codicon"
+    },
+    "window": {
+      "fontCharacter": "\\eb7f",
+      "fontId": "trae-default-codicon"
+    },
+    "word-wrap": {
+      "fontCharacter": "\\eb80",
+      "fontId": "trae-default-codicon"
+    },
+    "zoom-in": {
+      "fontCharacter": "\\4f5f",
+      "fontId": "trae-default-codicon"
+    },
+    "zoom-out": {
+      "fontCharacter": "\\4f60",
+      "fontId": "trae-default-codicon"
+    },
+    "list-filter": {
+      "fontCharacter": "\\eb83",
+      "fontId": "trae-default-codicon"
+    },
+    "list-flat": {
+      "fontCharacter": "\\eb84",
+      "fontId": "trae-default-codicon"
+    },
+    "list-selection": {
+      "fontCharacter": "\\eb85",
+      "fontId": "trae-default-codicon"
+    },
+    "selection": {
+      "fontCharacter": "\\eb85",
+      "fontId": "trae-default-codicon"
+    },
+    "list-tree": {
+      "fontCharacter": "\\eb86",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-function-unverified": {
+      "fontCharacter": "\\eb87",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-function": {
+      "fontCharacter": "\\eb88",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-function-disabled": {
+      "fontCharacter": "\\eb88",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-stackframe-active": {
+      "fontCharacter": "\\eb89",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-small-filled": {
+      "fontCharacter": "\\eb8a",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-stackframe-dot": {
+      "fontCharacter": "\\eb8a",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-decoration-mark": {
+      "fontCharacter": "\\eb8a",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-stackframe": {
+      "fontCharacter": "\\eb8b",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-stackframe-focused": {
+      "fontCharacter": "\\eb8b",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-breakpoint-unsupported": {
+      "fontCharacter": "\\eb8c",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-string": {
+      "fontCharacter": "\\eb8d",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-reverse-continue": {
+      "fontCharacter": "\\eb8e",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-step-back": {
+      "fontCharacter": "\\eb8f",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-restart-frame": {
+      "fontCharacter": "\\eb90",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-alt": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "call-incoming": {
+      "fontCharacter": "\\eb92",
+      "fontId": "trae-default-codicon"
+    },
+    "call-outgoing": {
+      "fontCharacter": "\\eb93",
+      "fontId": "trae-default-codicon"
+    },
+    "menu": {
+      "fontCharacter": "\\eb94",
+      "fontId": "trae-default-codicon"
+    },
+    "expand-all": {
+      "fontCharacter": "\\4e9e",
+      "fontId": "trae-default-codicon"
+    },
+    "feedback": {
+      "fontCharacter": "\\eb96",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-reviewer": {
+      "fontCharacter": "\\eb96",
+      "fontId": "trae-default-codicon"
+    },
+    "group-by-ref-type": {
+      "fontCharacter": "\\eb97",
+      "fontId": "trae-default-codicon"
+    },
+    "ungroup-by-ref-type": {
+      "fontCharacter": "\\eb98",
+      "fontId": "trae-default-codicon"
+    },
+    "account": {
+      "fontCharacter": "\\4f4e",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-assignee": {
+      "fontCharacter": "\\eb99",
+      "fontId": "trae-default-codicon"
+    },
+    "bell-dot": {
+      "fontCharacter": "\\4ed1",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-console": {
+      "fontCharacter": "\\4f39",
+      "fontId": "trae-default-codicon"
+    },
+    "library": {
+      "fontCharacter": "\\eb9c",
+      "fontId": "trae-default-codicon"
+    },
+    "output": {
+      "fontCharacter": "\\eb9d",
+      "fontId": "trae-default-codicon"
+    },
+    "run-all": {
+      "fontCharacter": "\\eb9e",
+      "fontId": "trae-default-codicon"
+    },
+    "sync-ignored": {
+      "fontCharacter": "\\eb9f",
+      "fontId": "trae-default-codicon"
+    },
+    "pinned": {
+      "fontCharacter": "\\eba0",
+      "fontId": "trae-default-codicon"
+    },
+    "github-inverted": {
+      "fontCharacter": "\\eba1",
+      "fontId": "trae-default-codicon"
+    },
+    "server-process": {
+      "fontCharacter": "\\eba2",
+      "fontId": "trae-default-codicon"
+    },
+    "server-environment": {
+      "fontCharacter": "\\eba3",
+      "fontId": "trae-default-codicon"
+    },
+    "pass": {
+      "fontCharacter": "\\eba4",
+      "fontId": "trae-default-codicon"
+    },
+    "issue-closed": {
+      "fontCharacter": "\\eba4",
+      "fontId": "trae-default-codicon"
+    },
+    "stop-circle": {
+      "fontCharacter": "\\eba5",
+      "fontId": "trae-default-codicon"
+    },
+    "play-circle": {
+      "fontCharacter": "\\eba6",
+      "fontId": "trae-default-codicon"
+    },
+    "record": {
+      "fontCharacter": "\\eba7",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-alt-small": {
+      "fontCharacter": "\\eba8",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-connect": {
+      "fontCharacter": "\\4f0a",
+      "fontId": "trae-default-codicon"
+    },
+    "cloud": {
+      "fontCharacter": "\\4e5f",
+      "fontId": "trae-default-codicon"
+    },
+    "merge": {
+      "fontCharacter": "\\ebab",
+      "fontId": "trae-default-codicon"
+    },
+    "export": {
+      "fontCharacter": "\\ebac",
+      "fontId": "trae-default-codicon"
+    },
+    "graph-left": {
+      "fontCharacter": "\\ebad",
+      "fontId": "trae-default-codicon"
+    },
+    "magnet": {
+      "fontCharacter": "\\ebae",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook": {
+      "fontCharacter": "\\ebaf",
+      "fontId": "trae-default-codicon"
+    },
+    "redo": {
+      "fontCharacter": "\\ebb0",
+      "fontId": "trae-default-codicon"
+    },
+    "check-all": {
+      "fontCharacter": "\\ebb1",
+      "fontId": "trae-default-codicon"
+    },
+    "pinned-dirty": {
+      "fontCharacter": "\\ebb2",
+      "fontId": "trae-default-codicon"
+    },
+    "pass-filled": {
+      "fontCharacter": "\\ebb3",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-large-filled": {
+      "fontCharacter": "\\ebb4",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-large": {
+      "fontCharacter": "\\ebb5",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-large-outline": {
+      "fontCharacter": "\\ebb5",
+      "fontId": "trae-default-codicon"
+    },
+    "combine": {
+      "fontCharacter": "\\ebb6",
+      "fontId": "trae-default-codicon"
+    },
+    "gather": {
+      "fontCharacter": "\\ebb6",
+      "fontId": "trae-default-codicon"
+    },
+    "table": {
+      "fontCharacter": "\\4f35",
+      "fontId": "trae-default-codicon"
+    },
+    "variable-group": {
+      "fontCharacter": "\\ebb8",
+      "fontId": "trae-default-codicon"
+    },
+    "type-hierarchy": {
+      "fontCharacter": "\\ebb9",
+      "fontId": "trae-default-codicon"
+    },
+    "type-hierarchy-sub": {
+      "fontCharacter": "\\ebba",
+      "fontId": "trae-default-codicon"
+    },
+    "type-hierarchy-super": {
+      "fontCharacter": "\\ebbb",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-create": {
+      "fontCharacter": "\\ebbc",
+      "fontId": "trae-default-codicon"
+    },
+    "run-above": {
+      "fontCharacter": "\\ebbd",
+      "fontId": "trae-default-codicon"
+    },
+    "run-below": {
+      "fontCharacter": "\\ebbe",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-template": {
+      "fontCharacter": "\\ebbf",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-rerun": {
+      "fontCharacter": "\\ebc0",
+      "fontId": "trae-default-codicon"
+    },
+    "workspace-trusted": {
+      "fontCharacter": "\\ebc1",
+      "fontId": "trae-default-codicon"
+    },
+    "workspace-untrusted": {
+      "fontCharacter": "\\ebc2",
+      "fontId": "trae-default-codicon"
+    },
+    "workspace-unknown": {
+      "fontCharacter": "\\ebc3",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-cmd": {
+      "fontCharacter": "\\ebc4",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-debian": {
+      "fontCharacter": "\\ebc5",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-linux": {
+      "fontCharacter": "\\ebc6",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-powershell": {
+      "fontCharacter": "\\ebc7",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-tmux": {
+      "fontCharacter": "\\ebc8",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-ubuntu": {
+      "fontCharacter": "\\ebc9",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-bash": {
+      "fontCharacter": "\\ebca",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-swap": {
+      "fontCharacter": "\\ebcb",
+      "fontId": "trae-default-codicon"
+    },
+    "copy": {
+      "fontCharacter": "\\4e73",
+      "fontId": "trae-default-codicon"
+    },
+    "person-add": {
+      "fontCharacter": "\\ebcd",
+      "fontId": "trae-default-codicon"
+    },
+    "filter-filled": {
+      "fontCharacter": "\\ebce",
+      "fontId": "trae-default-codicon"
+    },
+    "wand": {
+      "fontCharacter": "\\ebcf",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-line-by-line": {
+      "fontCharacter": "\\ebd0",
+      "fontId": "trae-default-codicon"
+    },
+    "inspect": {
+      "fontCharacter": "\\ebd1",
+      "fontId": "trae-default-codicon"
+    },
+    "layers": {
+      "fontCharacter": "\\ebd2",
+      "fontId": "trae-default-codicon"
+    },
+    "layers-dot": {
+      "fontCharacter": "\\ebd3",
+      "fontId": "trae-default-codicon"
+    },
+    "layers-active": {
+      "fontCharacter": "\\ebd4",
+      "fontId": "trae-default-codicon"
+    },
+    "compass": {
+      "fontCharacter": "\\4e6e",
+      "fontId": "trae-default-codicon"
+    },
+    "compass-dot": {
+      "fontCharacter": "\\ebd6",
+      "fontId": "trae-default-codicon"
+    },
+    "compass-active": {
+      "fontCharacter": "\\ebd7",
+      "fontId": "trae-default-codicon"
+    },
+    "azure": {
+      "fontCharacter": "\\ebd8",
+      "fontId": "trae-default-codicon"
+    },
+    "issue-draft": {
+      "fontCharacter": "\\ebd9",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-closed": {
+      "fontCharacter": "\\ebda",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-draft": {
+      "fontCharacter": "\\ebdb",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-all": {
+      "fontCharacter": "\\ebdc",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-coverage": {
+      "fontCharacter": "\\ebdd",
+      "fontId": "trae-default-codicon"
+    },
+    "run-errors": {
+      "fontCharacter": "\\ebde",
+      "fontId": "trae-default-codicon"
+    },
+    "folder-library": {
+      "fontCharacter": "\\ebdf",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-continue-small": {
+      "fontCharacter": "\\ebe0",
+      "fontId": "trae-default-codicon"
+    },
+    "beaker-stop": {
+      "fontCharacter": "\\ebe1",
+      "fontId": "trae-default-codicon"
+    },
+    "graph-line": {
+      "fontCharacter": "\\ebe2",
+      "fontId": "trae-default-codicon"
+    },
+    "graph-scatter": {
+      "fontCharacter": "\\ebe3",
+      "fontId": "trae-default-codicon"
+    },
+    "pie-chart": {
+      "fontCharacter": "\\ebe4",
+      "fontId": "trae-default-codicon"
+    },
+    "bracket-dot": {
+      "fontCharacter": "\\ebe5",
+      "fontId": "trae-default-codicon"
+    },
+    "bracket-error": {
+      "fontCharacter": "\\ebe6",
+      "fontId": "trae-default-codicon"
+    },
+    "lock-small": {
+      "fontCharacter": "\\ebe7",
+      "fontId": "trae-default-codicon"
+    },
+    "azure-devops": {
+      "fontCharacter": "\\ebe8",
+      "fontId": "trae-default-codicon"
+    },
+    "verified-filled": {
+      "fontCharacter": "\\ebe9",
+      "fontId": "trae-default-codicon"
+    },
+    "newline": {
+      "fontCharacter": "\\ebea",
+      "fontId": "trae-default-codicon"
+    },
+    "layout": {
+      "fontCharacter": "\\4f2b",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-activitybar-left": {
+      "fontCharacter": "\\ebec",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-activitybar-right": {
+      "fontCharacter": "\\ebed",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-left": {
+      "fontCharacter": "\\4ee3",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-center": {
+      "fontCharacter": "\\4ee1",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-justify": {
+      "fontCharacter": "\\4ee1",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-right": {
+      "fontCharacter": "\\4ee5",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel": {
+      "fontCharacter": "\\4ee1",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-left": {
+      "fontCharacter": "\\4f59",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-right": {
+      "fontCharacter": "\\4ee5",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-statusbar": {
+      "fontCharacter": "\\ebf5",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-menubar": {
+      "fontCharacter": "\\ebf6",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-centered": {
+      "fontCharacter": "\\ebf7",
+      "fontId": "trae-default-codicon"
+    },
+    "target": {
+      "fontCharacter": "\\ebf8",
+      "fontId": "trae-default-codicon"
+    },
+    "indent": {
+      "fontCharacter": "\\ebf9",
+      "fontId": "trae-default-codicon"
+    },
+    "record-small": {
+      "fontCharacter": "\\ebfa",
+      "fontId": "trae-default-codicon"
+    },
+    "error-small": {
+      "fontCharacter": "\\ebfb",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-decoration-error": {
+      "fontCharacter": "\\ebfb",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-circle-down": {
+      "fontCharacter": "\\ebfc",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-circle-left": {
+      "fontCharacter": "\\ebfd",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-circle-right": {
+      "fontCharacter": "\\ebfe",
+      "fontId": "trae-default-codicon"
+    },
+    "arrow-circle-up": {
+      "fontCharacter": "\\ebff",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-right-off": {
+      "fontCharacter": "\\4ee6",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-off": {
+      "fontCharacter": "\\4ee2",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-left-off": {
+      "fontCharacter": "\\4f57",
+      "fontId": "trae-default-codicon"
+    },
+    "blank": {
+      "fontCharacter": "\\ec03",
+      "fontId": "trae-default-codicon"
+    },
+    "heart-filled": {
+      "fontCharacter": "\\ec04",
+      "fontId": "trae-default-codicon"
+    },
+    "map": {
+      "fontCharacter": "\\ec05",
+      "fontId": "trae-default-codicon"
+    },
+    "map-horizontal": {
+      "fontCharacter": "\\ec05",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-horizontal": {
+      "fontCharacter": "\\ec05",
+      "fontId": "trae-default-codicon"
+    },
+    "map-filled": {
+      "fontCharacter": "\\ec06",
+      "fontId": "trae-default-codicon"
+    },
+    "map-horizontal-filled": {
+      "fontCharacter": "\\ec06",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-horizontal-filled": {
+      "fontCharacter": "\\ec06",
+      "fontId": "trae-default-codicon"
+    },
+    "circle-small": {
+      "fontCharacter": "\\ec07",
+      "fontId": "trae-default-codicon"
+    },
+    "bell-slash": {
+      "fontCharacter": "\\4ed2",
+      "fontId": "trae-default-codicon"
+    },
+    "bell-slash-dot": {
+      "fontCharacter": "\\4ed2",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-unresolved": {
+      "fontCharacter": "\\ec0a",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-go-to-changes": {
+      "fontCharacter": "\\ec0b",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-new-changes": {
+      "fontCharacter": "\\ec0c",
+      "fontId": "trae-default-codicon"
+    },
+    "search-fuzzy": {
+      "fontCharacter": "\\ec0d",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-draft": {
+      "fontCharacter": "\\ec0e",
+      "fontId": "trae-default-codicon"
+    },
+    "send": {
+      "fontCharacter": "\\4f1c",
+      "fontId": "trae-default-codicon"
+    },
+    "sparkle": {
+      "fontCharacter": "\\4f2a",
+      "fontId": "trae-default-codicon"
+    },
+    "insert": {
+      "fontCharacter": "\\ec11",
+      "fontId": "trae-default-codicon"
+    },
+    "mic": {
+      "fontCharacter": "\\ec12",
+      "fontId": "trae-default-codicon"
+    },
+    "thumbsdown-filled": {
+      "fontCharacter": "\\ec13",
+      "fontId": "trae-default-codicon"
+    },
+    "thumbsup-filled": {
+      "fontCharacter": "\\ec14",
+      "fontId": "trae-default-codicon"
+    },
+    "coffee": {
+      "fontCharacter": "\\ec15",
+      "fontId": "trae-default-codicon"
+    },
+    "snake": {
+      "fontCharacter": "\\ec16",
+      "fontId": "trae-default-codicon"
+    },
+    "game": {
+      "fontCharacter": "\\ec17",
+      "fontId": "trae-default-codicon"
+    },
+    "vr": {
+      "fontCharacter": "\\ec18",
+      "fontId": "trae-default-codicon"
+    },
+    "chip": {
+      "fontCharacter": "\\ec19",
+      "fontId": "trae-default-codicon"
+    },
+    "piano": {
+      "fontCharacter": "\\ec1a",
+      "fontId": "trae-default-codicon"
+    },
+    "music": {
+      "fontCharacter": "\\ec1b",
+      "fontId": "trae-default-codicon"
+    },
+    "mic-filled": {
+      "fontCharacter": "\\ec1c",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-fetch": {
+      "fontCharacter": "\\ec1d",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot": {
+      "fontCharacter": "\\ec1e",
+      "fontId": "trae-default-codicon"
+    },
+    "lightbulb-sparkle": {
+      "fontCharacter": "\\ec1f",
+      "fontId": "trae-default-codicon"
+    },
+    "robot": {
+      "fontCharacter": "\\ec20",
+      "fontId": "trae-default-codicon"
+    },
+    "sparkle-filled": {
+      "fontCharacter": "\\ec21",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-single": {
+      "fontCharacter": "\\ec22",
+      "fontId": "trae-default-codicon"
+    },
+    "diff-multiple": {
+      "fontCharacter": "\\ec23",
+      "fontId": "trae-default-codicon"
+    },
+    "surround-with": {
+      "fontCharacter": "\\ec24",
+      "fontId": "trae-default-codicon"
+    },
+    "share": {
+      "fontCharacter": "\\4f20",
+      "fontId": "trae-default-codicon"
+    },
+    "git-stash": {
+      "fontCharacter": "\\ec26",
+      "fontId": "trae-default-codicon"
+    },
+    "git-stash-apply": {
+      "fontCharacter": "\\ec27",
+      "fontId": "trae-default-codicon"
+    },
+    "git-stash-pop": {
+      "fontCharacter": "\\ec28",
+      "fontId": "trae-default-codicon"
+    },
+    "vscode": {
+      "fontCharacter": "\\ec29",
+      "fontId": "trae-default-codicon"
+    },
+    "vscode-insiders": {
+      "fontCharacter": "\\ec2a",
+      "fontId": "trae-default-codicon"
+    },
+    "code-oss": {
+      "fontCharacter": "\\ec2b",
+      "fontId": "trae-default-codicon"
+    },
+    "run-coverage": {
+      "fontCharacter": "\\ec2c",
+      "fontId": "trae-default-codicon"
+    },
+    "run-all-coverage": {
+      "fontCharacter": "\\ec2d",
+      "fontId": "trae-default-codicon"
+    },
+    "coverage": {
+      "fontCharacter": "\\ec2e",
+      "fontId": "trae-default-codicon"
+    },
+    "github-project": {
+      "fontCharacter": "\\ec2f",
+      "fontId": "trae-default-codicon"
+    },
+    "map-vertical": {
+      "fontCharacter": "\\ec30",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-vertical": {
+      "fontCharacter": "\\ec30",
+      "fontId": "trae-default-codicon"
+    },
+    "map-vertical-filled": {
+      "fontCharacter": "\\ec31",
+      "fontId": "trae-default-codicon"
+    },
+    "fold-vertical-filled": {
+      "fontCharacter": "\\ec31",
+      "fontId": "trae-default-codicon"
+    },
+    "go-to-search": {
+      "fontCharacter": "\\ec32",
+      "fontId": "trae-default-codicon"
+    },
+    "percentage": {
+      "fontCharacter": "\\ec33",
+      "fontId": "trae-default-codicon"
+    },
+    "sort-percentage": {
+      "fontCharacter": "\\ec33",
+      "fontId": "trae-default-codicon"
+    },
+    "attach": {
+      "fontCharacter": "\\ec34",
+      "fontId": "trae-default-codicon"
+    },
+    "go-to-editing-session": {
+      "fontCharacter": "\\ec35",
+      "fontId": "trae-default-codicon"
+    },
+    "edit-session": {
+      "fontCharacter": "\\ec36",
+      "fontId": "trae-default-codicon"
+    },
+    "code-review": {
+      "fontCharacter": "\\ec37",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-warning": {
+      "fontCharacter": "\\ec38",
+      "fontId": "trae-default-codicon"
+    },
+    "python": {
+      "fontCharacter": "\\ec39",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-large": {
+      "fontCharacter": "\\ec3a",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-warning-large": {
+      "fontCharacter": "\\ec3b",
+      "fontId": "trae-default-codicon"
+    },
+    "keyboard-tab": {
+      "fontCharacter": "\\ec3c",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-blocked": {
+      "fontCharacter": "\\ec3d",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-not-connected": {
+      "fontCharacter": "\\ec3e",
+      "fontId": "trae-default-codicon"
+    },
+    "flag": {
+      "fontCharacter": "\\ec3f",
+      "fontId": "trae-default-codicon"
+    },
+    "lightbulb-empty": {
+      "fontCharacter": "\\ec40",
+      "fontId": "trae-default-codicon"
+    },
+    "symbol-method-arrow": {
+      "fontCharacter": "\\ec41",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-unavailable": {
+      "fontCharacter": "\\ec42",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-pinned": {
+      "fontCharacter": "\\ec43",
+      "fontId": "trae-default-codicon"
+    },
+    "keyboard-tab-above": {
+      "fontCharacter": "\\ec44",
+      "fontId": "trae-default-codicon"
+    },
+    "keyboard-tab-below": {
+      "fontCharacter": "\\ec45",
+      "fontId": "trae-default-codicon"
+    },
+    "git-pull-request-done": {
+      "fontCharacter": "\\ec46",
+      "fontId": "trae-default-codicon"
+    },
+    "mcp": {
+      "fontCharacter": "\\4ec7",
+      "fontId": "trae-default-codicon"
+    },
+    "extensions-large": {
+      "fontCharacter": "\\ec48",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-panel-dock": {
+      "fontCharacter": "\\4e8d",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-left-dock": {
+      "fontCharacter": "\\4e8d",
+      "fontId": "trae-default-codicon"
+    },
+    "layout-sidebar-right-dock": {
+      "fontCharacter": "\\4e8d",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-in-progress": {
+      "fontCharacter": "\\ec4c",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-error": {
+      "fontCharacter": "\\ec4d",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-success": {
+      "fontCharacter": "\\ec4e",
+      "fontId": "trae-default-codicon"
+    },
+    "chat-sparkle": {
+      "fontCharacter": "\\4e22",
+      "fontId": "trae-default-codicon"
+    },
+    "search-sparkle": {
+      "fontCharacter": "\\ec50",
+      "fontId": "trae-default-codicon"
+    },
+    "edit-sparkle": {
+      "fontCharacter": "\\ec51",
+      "fontId": "trae-default-codicon"
+    },
+    "copilot-snooze": {
+      "fontCharacter": "\\ec52",
+      "fontId": "trae-default-codicon"
+    },
+    "send-to-remote-agent": {
+      "fontCharacter": "\\ec53",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-discussion-sparkle": {
+      "fontCharacter": "\\ec54",
+      "fontId": "trae-default-codicon"
+    },
+    "chat-sparkle-warning": {
+      "fontCharacter": "\\ec55",
+      "fontId": "trae-default-codicon"
+    },
+    "chat-sparkle-error": {
+      "fontCharacter": "\\ec56",
+      "fontId": "trae-default-codicon"
+    },
+    "collection": {
+      "fontCharacter": "\\ec57",
+      "fontId": "trae-default-codicon"
+    },
+    "new-collection": {
+      "fontCharacter": "\\ec58",
+      "fontId": "trae-default-codicon"
+    },
+    "thinking": {
+      "fontCharacter": "\\ec59",
+      "fontId": "trae-default-codicon"
+    },
+    "build": {
+      "fontCharacter": "\\ec5a",
+      "fontId": "trae-default-codicon"
+    },
+    "comment-discussion-quote": {
+      "fontCharacter": "\\ec5b",
+      "fontId": "trae-default-codicon"
+    },
+    "cursor": {
+      "fontCharacter": "\\ec5c",
+      "fontId": "trae-default-codicon"
+    },
+    "eraser": {
+      "fontCharacter": "\\ec5d",
+      "fontId": "trae-default-codicon"
+    },
+    "file-text": {
+      "fontCharacter": "\\ec5e",
+      "fontId": "trae-default-codicon"
+    },
+    "quotes": {
+      "fontCharacter": "\\ec60",
+      "fontId": "trae-default-codicon"
+    },
+    "rename": {
+      "fontCharacter": "\\ec61",
+      "fontId": "trae-default-codicon"
+    },
+    "run-with-deps": {
+      "fontCharacter": "\\ec62",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-connected": {
+      "fontCharacter": "\\ec63",
+      "fontId": "trae-default-codicon"
+    },
+    "strikethrough": {
+      "fontCharacter": "\\ec64",
+      "fontId": "trae-default-codicon"
+    },
+    "open-in-product": {
+      "fontCharacter": "\\ec65",
+      "fontId": "trae-default-codicon"
+    },
+    "index-zero": {
+      "fontCharacter": "\\ec66",
+      "fontId": "trae-default-codicon"
+    },
+    "agent": {
+      "fontCharacter": "\\ec67",
+      "fontId": "trae-default-codicon"
+    },
+    "edit-code": {
+      "fontCharacter": "\\ec68",
+      "fontId": "trae-default-codicon"
+    },
+    "repo-selected": {
+      "fontCharacter": "\\ec69",
+      "fontId": "trae-default-codicon"
+    },
+    "skip": {
+      "fontCharacter": "\\ec6a",
+      "fontId": "trae-default-codicon"
+    },
+    "merge-into": {
+      "fontCharacter": "\\ec6b",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch-changes": {
+      "fontCharacter": "\\ec6c",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch-staged-changes": {
+      "fontCharacter": "\\ec6d",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch-conflicts": {
+      "fontCharacter": "\\ec6e",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch": {
+      "fontCharacter": "\\4e4e",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch-create": {
+      "fontCharacter": "\\ec6f",
+      "fontId": "trae-default-codicon"
+    },
+    "git-branch-delete": {
+      "fontCharacter": "\\ec6f",
+      "fontId": "trae-default-codicon"
+    },
+    "search-large": {
+      "fontCharacter": "\\ec70",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-git-bash": {
+      "fontCharacter": "\\ec71",
+      "fontId": "trae-default-codicon"
+    },
+    "window-active": {
+      "fontCharacter": "\\ec72",
+      "fontId": "trae-default-codicon"
+    },
+    "forward": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "download": {
+      "fontCharacter": "\\4e95",
+      "fontId": "trae-default-codicon"
+    },
+    "clockface": {
+      "fontCharacter": "\\ec75",
+      "fontId": "trae-default-codicon"
+    },
+    "unarchive": {
+      "fontCharacter": "\\ec76",
+      "fontId": "trae-default-codicon"
+    },
+    "session-in-progress": {
+      "fontCharacter": "\\ec77",
+      "fontId": "trae-default-codicon"
+    },
+    "collection-small": {
+      "fontCharacter": "\\ec78",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-small": {
+      "fontCharacter": "\\ec79",
+      "fontId": "trae-default-codicon"
+    },
+    "cloud-small": {
+      "fontCharacter": "\\ec7a",
+      "fontId": "trae-default-codicon"
+    },
+    "add-small": {
+      "fontCharacter": "\\ec7b",
+      "fontId": "trae-default-codicon"
+    },
+    "remove-small": {
+      "fontCharacter": "\\4f23",
+      "fontId": "trae-default-codicon"
+    },
+    "worktree-small": {
+      "fontCharacter": "\\ec7d",
+      "fontId": "trae-default-codicon"
+    },
+    "worktree": {
+      "fontCharacter": "\\ec7e",
+      "fontId": "trae-default-codicon"
+    },
+    "git-fetch": {
+      "fontCharacter": "\\f101",
+      "fontId": "trae-default-codicon"
+    },
+    "vm-pending": {
+      "fontCharacter": "\\f102",
+      "fontId": "trae-default-codicon"
+    },
+    "widget-close": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "find-selection": {
+      "fontCharacter": "\\4f1a",
+      "fontId": "trae-default-codicon"
+    },
+    "find-collapsed": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "find-expanded": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "find-replace": {
+      "fontCharacter": "\\4f0d",
+      "fontId": "trae-default-codicon"
+    },
+    "find-replace-all": {
+      "fontCharacter": "\\4f0e",
+      "fontId": "trae-default-codicon"
+    },
+    "find-previous-match": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "find-next-match": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "folding-expanded": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "folding-collapsed": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "suggest-more-info": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "parameter-hints-next": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "parameter-hints-previous": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "review-comment-collapse": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "panel-maximize": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "panel-close": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "auxiliarybar-left-layout-icon": {
+      "fontCharacter": "\\4f59",
+      "fontId": "trae-default-codicon"
+    },
+    "auxiliarybar-left-off-layout-icon": {
+      "fontCharacter": "\\4f57",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-delete-cell": {
+      "fontCharacter": "\\4e83",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-clear": {
+      "fontCharacter": "\\4e59",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-split-cell": {
+      "fontCharacter": "\\4f55",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-collapsed": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "notebook-expanded": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-kill": {
+      "fontCharacter": "\\4e83",
+      "fontId": "trae-default-codicon"
+    },
+    "search-show-context": {
+      "fontCharacter": "\\4e71",
+      "fontId": "trae-default-codicon"
+    },
+    "search-hide-replace": {
+      "fontCharacter": "\\4f12",
+      "fontId": "trae-default-codicon"
+    },
+    "search-show-replace": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "search-replace-all": {
+      "fontCharacter": "\\4f0e",
+      "fontId": "trae-default-codicon"
+    },
+    "search-replace": {
+      "fontCharacter": "\\4f0d",
+      "fontId": "trae-default-codicon"
+    },
+    "search-remove": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "search-refresh": {
+      "fontCharacter": "\\4f06",
+      "fontId": "trae-default-codicon"
+    },
+    "search-collapse-results": {
+      "fontCharacter": "\\4e62",
+      "fontId": "trae-default-codicon"
+    },
+    "search-expand-results": {
+      "fontCharacter": "\\4e9e",
+      "fontId": "trae-default-codicon"
+    },
+    "search-tree": {
+      "fontCharacter": "\\4f44",
+      "fontId": "trae-default-codicon"
+    },
+    "search-list": {
+      "fontCharacter": "\\4f35",
+      "fontId": "trae-default-codicon"
+    },
+    "search-clear-results": {
+      "fontCharacter": "\\4e59",
+      "fontId": "trae-default-codicon"
+    },
+    "search-view-icon": {
+      "fontCharacter": "\\4ef7",
+      "fontId": "trae-default-codicon"
+    },
+    "search-new-editor": {
+      "fontCharacter": "\\4e26",
+      "fontId": "trae-default-codicon"
+    },
+    "search-open-in-file": {
+      "fontCharacter": "\\4ed5",
+      "fontId": "trae-default-codicon"
+    },
+    "testing-run-icon": {
+      "fontCharacter": "\\4eea",
+      "fontId": "trae-default-codicon"
+    },
+    "testing-filter": {
+      "fontCharacter": "\\4e9f",
+      "fontId": "trae-default-codicon"
+    },
+    "testing-show-as-list-icon": {
+      "fontCharacter": "\\4f35",
+      "fontId": "trae-default-codicon"
+    },
+    "explorer-view-icon": {
+      "fontCharacter": "\\4efa",
+      "fontId": "trae-default-codicon"
+    },
+    "timeline-refresh": {
+      "fontCharacter": "\\4f10",
+      "fontId": "trae-default-codicon"
+    },
+    "timeline-pin": {
+      "fontCharacter": "\\4ee8",
+      "fontId": "trae-default-codicon"
+    },
+    "timeline-unpin": {
+      "fontCharacter": "\\4f49",
+      "fontId": "trae-default-codicon"
+    },
+    "timeline-filter": {
+      "fontCharacter": "\\4ea0",
+      "fontId": "trae-default-codicon"
+    },
+    "notifications-clear": {
+      "fontCharacter": "\\4e5a",
+      "fontId": "trae-default-codicon"
+    },
+    "notifications-clear-all": {
+      "fontCharacter": "\\4e59",
+      "fontId": "trae-default-codicon"
+    },
+    "notifications-expand": {
+      "fontCharacter": "\\4f4a",
+      "fontId": "trae-default-codicon"
+    },
+    "notifications-collapse": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "notifications-hide": {
+      "fontCharacter": "\\4e94",
+      "fontId": "trae-default-codicon"
+    },
+    "source-control-view-icon": {
+      "fontCharacter": "\\4e4e",
+      "fontId": "trae-default-codicon"
+    },
+    "extensions-view-icon": {
+      "fontCharacter": "\\4ef6",
+      "fontId": "trae-default-codicon"
+    },
+    "run-view-icon": {
+      "fontCharacter": "\\4ef8",
+      "fontId": "trae-default-codicon"
+    },
+    "terminal-view-icon": {
+      "fontCharacter": "\\ea85",
+      "fontId": "trae-default-codicon"
+    },
+    "remote-icube-explorer-view-icon": {
+      "fontCharacter": "\\4f0a",
+      "fontId": "trae-default-codicon"
+    },
+    "private-ports-view-icon": {
+      "fontCharacter": "\\4ec2",
+      "fontId": "trae-default-codicon"
+    },
+    "settings-sync-view-icon": {
+      "fontCharacter": "\\ea77",
+      "fontId": "trae-default-codicon"
+    },
+    "variables-view-icon": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "watch-view-icon": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "callstack-view-icon": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "breakpoints-view-icon": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "loaded-scripts-view-icon": {
+      "fontCharacter": "\\eb91",
+      "fontId": "trae-default-codicon"
+    },
+    "debug-console-view-icon": {
+      "fontCharacter": "\\eb9b",
+      "fontId": "trae-default-codicon"
+    },
+    "outline-view-icon": {
+      "fontCharacter": "\\eb5b",
+      "fontId": "trae-default-codicon"
+    },
+    "markers-view-icon": {
+      "fontCharacter": "\\ea6c",
+      "fontId": "trae-default-codicon"
+    },
+    "output-view-icon": {
+      "fontCharacter": "\\eb9d",
+      "fontId": "trae-default-codicon"
+    },
+    "timeline-view-icon": {
+      "fontCharacter": "\\ea82",
+      "fontId": "trae-default-codicon"
+    },
+    "cueFlow-view-icon": {
+      "fontCharacter": "\\ea82",
+      "fontId": "trae-default-codicon"
+    },
+    "comments-view-icon": {
+      "fontCharacter": "\\eac7",
+      "fontId": "trae-default-codicon"
+    }
+  }
+}
